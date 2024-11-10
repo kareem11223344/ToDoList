@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #3d3d3d;
+}
+.header{
+    border:1px solid #bef264;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 4px;
+}
+@media(max-width:991px){
+    .header{
+        width: 100%;
+        
+    }
+}
+.header{
+    width: 50%;
+}
+.container{
+    margin-top: 30px;
+    display: block;
+}
+@media(max-width:991px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.container ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container ul li{
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    list-style-type: "✅";
+    text-align: center;
+    width: 50px;
+    cursor: pointer;
+}
+.container input{
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-weight: 500;
+}
+@media(max-width:991px){
+    .container input{
+        width: 100%;
+    }
+}
+.container button{
+    margin-left: 10px;
+}
+@media(max-width:991px){
+    .container button{
+        width: 100%;
+        margin: 0;
+        margin-top: 5px;
+    }
+}
+/* .child input:focus{
+    outline: none;
+} */
+.done{
+    text-decoration: line-through;
+    color: #000;
+}
+.main{
+
+}
+@media(max-width:991px){
+    .main{
+
+    }
+}
+@media(max-width:991px){
+    .main span{
+        margin: 5px 20px;
+        padding: 0;
+    }
+}
